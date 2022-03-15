@@ -11,6 +11,7 @@ export class CreationFunctionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.clear()
      // emits 4 values using of creation function
      of(2, 4, 6, 8).subscribe((val) => console.log(val));
 

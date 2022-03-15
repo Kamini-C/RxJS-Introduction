@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PagesComponent } from './pages/pages.component';
 import { CreationFunctionComponent } from './pages/creation-function/creation-function.component';
+import { OperatorsComponent } from './pages/operators/operators.component';
+import { HandlingErrorsComponent } from './pages/handling-errors/handling-errors.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PagesComponent,
-    CreationFunctionComponent
+    CreationFunctionComponent,
+    OperatorsComponent,
+    HandlingErrorsComponent
   ],
   imports: [
     BrowserModule,
