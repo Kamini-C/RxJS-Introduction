@@ -23,7 +23,7 @@ export class HandlingErrorsComponent implements OnInit {
       )
       .subscribe({
         next: x => console.log(`Item= ${x}`),
-        error: err => console.log('Errorin Subscription') //will not be called as error was handled before it
+        error: err => console.log('Error in Subscription') //will not be called as error was handled before it
       })
   }
 
